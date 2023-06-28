@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 9px 13px 22px 6px;
+    align-items: center;
+}
+.header-nav span a{
+    background-color: #4BA87D;
+    padding: 6px 13.5px;
+    color: white;
+}
+.header-nav nav ul{
+    display: none;
+}
+.creat{
+    padding: 10px 10px 26px 9px;
+    text-align: center;
+}
+.creat p{
+    padding-bottom: 25px;
+}
+.creat h1{
+    font-size: 36px;
+}
+.creat .try{
+    margin-right: 15px;
+}
+.creat .try a{
+    background-color: #4BA87D;
+    color: white;
+    padding: 12.5px 39px;
+}
+.creat .get a{
+    background-color: white;
+    color:#4BA87D;
+    padding: 10px 25px;
+    border-style: solid;
+    border-color: #4BA87D;
+}
+.child span, h1 {
+    color: white;
+}
+.family{
+    position: relative;
+    margin-top: 20px;
+}
+.child{
+    position: absolute;
+    top: 64px;
+    left: 50px;
+    text-align: center;
+}
+.child h1{
+    padding-bottom: 20px;
+}
+.child span a{
+    background-color: white;
+    padding:7px 13px;
+    color:#4BA87D;
+}
+
+@media screen and (min-width:376px){
+    .header-nav nav ul{
+        display: flex;
+        column-gap: 26px;
+    }
+    .header .header-nav nav{
+        display: flex;
+        column-gap: 20px;
+       
+    }
+    .FEATURES, .PRICING, .SERVICES, .PARTNERS{
+        border-bottom-style: solid;
+        border-color: #4BA87D;
+    }
+    .creat{
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+    }
+    .creat-2{
+        gap: 25px;
+        padding-right: 32px;
+    }
+    .creat .try{
+        margin-right: 30px;
+    }
+    .creat-2 p{
+        padding-top: 17px;
+        padding-bottom: 35px; 
+    }
+
+
+}
