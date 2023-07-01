@@ -78,6 +78,17 @@ a{
 .creat-2 h1{
     color: black;
 }
+.section{
+    display: grid;
+    background-color: #8ddbb7;
+}
+.section-1{
+    border-style: solid;
+}
+.section-2{
+    margin-top: 15px;
+    align-content:flex-end;
+}
 
 @media screen and (min-width:376px){
     .header-nav nav ul{
